@@ -1,0 +1,6 @@
+{
+  "name": "PRC Phone Repair",
+  "description": "Professional phone repair in Paris 8 near Gare Saint-Lazare. iPhone screen replacement, clear diagnosis, transparent quote, and testing before return.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
