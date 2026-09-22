@@ -37,16 +37,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <Phone className="w-4 h-4" />
               <span>{BUSINESS.phone}</span>
             </a>
-            <a
-              href={BUSINESS.googleMapsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              id="footer-directions-btn"
-              className="flex-1 md:flex-none inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl border border-slate-700 hover:border-slate-500 text-white font-medium transition-colors"
-            >
-              <MapPin className="w-4 h-4 text-sky-400" />
-              <span>Get Directions</span>
-            </a>
+           
           </div>
         </div>
       </div>
@@ -188,15 +179,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
               <div className="flex items-center gap-2.5 text-slate-300">
                 <Globe className="w-4 h-4 text-sky-400 shrink-0" />
-                <a
-                  href={`https://${BUSINESS.website}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-sky-400 transition-colors inline-flex items-center gap-1"
-                >
-                  <span>{BUSINESS.website}</span>
-                  <ArrowUpRight className="w-3.5 h-3.5" />
-                </a>
+               
+                 
               </div>
             </div>
 
